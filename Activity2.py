@@ -1,6 +1,6 @@
-name = "Robles"
-age = 18
-height = 1.99
+name = "Jet Clev R. Tion"
+age = 19
+height = 1.70
 isWorking = False
 
 print(f"Fullname: {name}")
