@@ -1,0 +1,18 @@
+while True:
+    print("\nTo create a Password, it must contain atleast 1 letter and number")
+    password = input("Password: ",)
+
+    letters = False
+    digits = False
+
+    for i in password:
+        if i.isalpha():
+            letter = True
+        if i.isdigit():
+            digits = True
+    
+    if letter and digits:
+        print("Password Accepted!")
+        break
+    else:
+        print("Invalid Password. Try Again.")
