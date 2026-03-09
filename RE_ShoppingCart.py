@@ -88,8 +88,8 @@ while True:
         elif choice == 4:
             cart.checkOut()
             break
+        else:
+            print("Not in the choices\n")
     except ValueError:
         print("Invalid Input\n")
         continue
-
-
