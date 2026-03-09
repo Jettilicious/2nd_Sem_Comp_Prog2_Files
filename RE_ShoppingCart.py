@@ -26,7 +26,7 @@ class Cart:
                 qtotal = float(data['price'] * data['quantity'])
                 total += qtotal
                 print(f"-{name} | ${data['price']:.2f} x{data['quantity']} = ${qtotal:.2f}")
-            print(f"Current Total: {total}\n")
+            print(f"Current Total: ${total}\n")
     def checkOut(self):
         if len(self.item) == 0:
             print("No items for Checkout\n")
@@ -96,3 +96,4 @@ while True:
         print("Invalid Input\n")
 
         continue
+
